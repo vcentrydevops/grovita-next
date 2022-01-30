@@ -1,0 +1,267 @@
+/* Header Page */
+.nav-div{
+    background-color: #fff;
+    display: flex;
+    position: relative;
+    /* margin: -8px -8px 0px -8px; */
+    padding:5px 0px 5px 0px;
+  }
+  #nav-div1{
+    position:fixed;
+    animation-name: headerAnim;
+    animation-duration: 0.6s;
+    width: 100%;
+    z-index: 1000;
+    top:0px;
+  }
+  @keyframes headerAnim{
+    1%{
+      top:-75px;
+    }
+    100%{
+      top:0px;
+    }
+  }
+  .nav-cont{
+    display: flex;
+    flex-basis:30%;
+    justify-content: center;
+  }
+  .nav-logo{
+    display: flex;
+    flex-basis:99%;
+  }
+  .nav-logo>a{
+      margin-left: 25%;
+  }
+  .com-logo{
+    height: 75px;
+  }
+  .navlist-btn{
+    visibility:hidden;
+  }
+  .nav-links>ul{
+      display: flex;
+      flex-basis: 95%;
+      padding-left:0px;
+  }
+  .nav-links>ul>li{
+    list-style: none;
+    height: 62px;
+    width: 120px;
+    margin-top: 16px;
+    text-align: center;
+    z-index: 100;
+  }
+
+  .nav-links{
+    display: flex;
+    flex-basis: 80%;
+    height: 75px;
+    /* justify-content: center; */
+  }
+
+  .nav-btn-grov>div>a,
+  .navlink-btn{
+      text-decoration: none !important;
+      font-weight: bold;
+      color: #000;
+      position: relative;
+      top: 12.835px;
+      font-size: 16px;  
+  }
+
+  .navlink-btn1{
+    position: relative;
+    /* top:11px; */
+  }
+
+  .navlink-btn:hover{
+      color:#007bffc5 ;
+  }
+
+  .navlink-btn>i{
+      align-items: center;
+      margin-left: 4px;
+  }
+  
+  .navlink-btn-icon{
+      position: relative;
+      /* top:3px; */
+      bottom: 1px;
+      color: #000 !important;
+  }
+  
+  .navlinks-div{
+      display: grid;
+      position: relative;
+      top:20px;
+      background-color: #19202e;
+      padding: 5px 0px 5px 0px;
+      visibility: hidden;
+  }
+
+
+  .navlinks-div>a{
+      color: #ffff;
+      text-decoration: none !important;
+      padding: 10px;
+      text-align: left;
+      border-bottom:1px solid #07090d ;
+  }
+  .nav-service>div:last-child{
+    width: 270px;
+  }
+  .nav-solution>div:last-child{
+    width: 250px;
+  }
+  .nav-solution{
+    margin: 0px 0px 0px 0.8%;
+  }
+  .nav-technology{
+    margin: 0px 1% 0px 2%;
+  }
+  .nav-technology>div:last-child{
+    width: 180px;
+  }
+  .navlink-menu:hover>.navlinks-div{
+    visibility: visible;
+  }
+  #nav-visible{
+    visibility: hidden !important;
+  }
+
+  .navlinks-div>a:hover{
+      background-color:#00a2ff ;
+      color: #19202e;
+  }
+  .navlinks-div>a:last-child{
+      border-bottom: none;
+  }
+  
+  @media(max-width:993px){
+
+    .nav-div{
+        background-color: #fff;
+        display: grid;
+        position: relative;
+        /* margin: -8px -8px 0px -8px; */
+        padding:5px 0px 5px 0px;
+      }
+    .nav-cont{
+        display: flex;
+    }
+    #nav-div1{
+      position:relative;
+      width: 100%;
+      z-index: 1000;
+      top:0px;
+    }
+    .nav-logo{
+        display: flex;
+        flex-basis:40%;
+    }
+    .nav-link-btn{
+        flex-basis:60%;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .navlist-btn{
+        position: relative;
+        right: 50px;
+    }
+    .navlist-btn>i{
+        font-size: 50px;
+        display: flex;
+        align-items: center;
+        position: relative;
+        top:12.5px;
+        color: #1a8dbe;
+    }
+
+    .navlist-btn{
+        visibility:visible;
+    } 
+    .nav-links{
+        width: 80%;
+        margin-left: 10%;
+        height: auto;
+        display: none;
+    } 
+    .nav-service>div:last-child{
+      width: 100%;
+    }
+    .nav-solution>div:last-child{
+      width: 100%;
+    }
+    .nav-technology>div:last-child{
+      width: 100%;
+    }
+    #nav-links1{
+      display: grid;
+    }
+    .nav-links>ul{
+        width: 100%;
+        display: grid;
+        padding-left:0px;
+        justify-content: left;
+        overflow: hidden;
+    }
+    .nav-links>ul>li{
+      width: 82vw;
+      display:grid;
+      height: auto;
+      text-align: left;
+    }
+    .nav-solution{
+      margin: 0px 0px 0px 0px;
+    }    
+    .nav-technology{
+      margin: 0px 0px 0px 0px;
+    }
+    .nav-links>ul>li>div:first-child{
+      padding: 10px 0px 10px 0px;
+      margin-left: 20px;
+      cursor: pointer;
+    }
+    .nav-links>ul>li>div:first-child:hover~.navlinks-div{
+      visibility: visible;
+      display: grid;
+    }
+
+    .navlinks-div{
+      visibility: visible;
+      display: none;
+    }
+    .navlinks-div:hover{
+      visibility: visible;
+      display: grid;
+    }
+
+    .nav-links>ul>li>a{
+      padding: 10px 0px 10px 0px;
+    }
+  .nav-btn-grov>div>a,
+    .navlink-btn{
+        position: static;
+    }
+    .navlinks-div{
+        position:static;
+        width: 100%;
+    }
+    .navlinks-div>a{
+      padding-left: 30px;
+    }
+  }
+  
+  @media(max-width:376px){
+
+    .nav-logo{
+        display: flex;
+        flex-basis:40%;
+      }
+
+    .navlist-btn{
+        visibility:visible;
+    }    
+  }

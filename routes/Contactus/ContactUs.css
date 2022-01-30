@@ -1,0 +1,77 @@
+.contactus-cont{
+    background-color: #fff;
+}
+.contactus-cont>.aboutus-head{
+    margin-left: 3%;
+}
+.contactus-address{
+    margin-left: 5%;
+}
+.contactus-address>.fs-head{
+    padding-bottom: 5px;
+}
+.contactus-address>.fs-head>p{
+    color: #999999;
+    margin-bottom: 0;
+}
+.contactus-form{
+    width: 95%;
+    margin-left: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.contactus-form>form>input:not(:last-child){
+    border: 0.1px solid #9999999d;
+    width: 45%;
+    margin:10px 0px 10px 0px;
+    padding:1%;
+}
+.contactus-form>form>input:nth-child(odd){
+    margin-right: 4%;
+}
+.contactus-form>form>input:focus{
+    outline: none;
+}
+.contactus-form>form>textarea{
+    border: 0.1px solid #9999999d;
+    width: 94%;
+    height: 130px;
+    margin: 10px 0px 10px 0px;
+    padding:0.8%;
+}
+.contactus-form>form>textarea:focus{
+    outline: none;
+}
+.contactus-form>form>input::-webkit-outer-spin-button,
+.contactus-form>form>input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.cont-submit-btn{
+    /* width: 20%; */
+    border: none;
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0px 2px #1a8dbe;
+    background-color: #29abe2;
+    margin-top: 20px;
+}
+.cont-submit-btn:hover{
+    background-color: #19202E;
+}
+.cont-submit-btn:active{
+    background-color:#007bff;
+    box-shadow: 0px 0px 2px 3px #8dc2fa;
+}
+
+@media (max-width:765px) {
+    .contactus-address{
+        margin-left: 10%;
+    }
+}

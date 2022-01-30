@@ -1,0 +1,10 @@
+.clientpage-client{
+    padding: 40px 0px 40px 0px;
+}
+.clientpage-client>.aboutus-head{
+    margin-left: 1%;
+}
+.clientpage-client>div:last-child>img{
+    width: 90%;
+    margin-left: 6%;
+}

@@ -1,0 +1,6 @@
+.carousellap-div>.carousel>.carousel-indicators>li{
+    display: none;
+}
+.carousellap-div>.carousel>a{
+    display: none;
+} 

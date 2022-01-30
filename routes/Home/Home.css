@@ -1,0 +1,329 @@
+.serv-cont{
+    padding-top: 90px;
+    padding-bottom: 90px;
+    text-align: center;
+    overflow: hidden;
+}
+.serv-head{
+    font-size: 30px;
+    font-weight: bold;
+    display: grid;
+    justify-content: center;
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+.serv-head>div:last-child{
+    width: 40px;
+    height: 2px;
+    margin-left: 40%;
+    background-color: #29abe2;
+}
+.serv-div{
+  width: 88%;  
+  margin-left: 6%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.serv-div>div>div:last-child{
+    padding: 20px 0px 0px 0px;
+}
+.serv-div>div>div:last-child>a{
+ text-decoration: none !important;
+}
+.serv-div>div:hover>.icon-div>i{
+    background-color: black;
+}
+.serv-div>div>div:last-child>h4{
+    font-size: 16px;
+    padding: 10px 0px 10px 0px;
+}
+.serv-div>div:hover>div:last-child>a>p{
+    color:#29abe2 ;
+}
+.serv-div>div>div:last-child>a>p{
+ font-weight: 500;
+ color: rgba(0, 0, 0, 0.452);
+}
+.serv-div>div{
+    flex-basis: 28%;
+    padding: 15px 0px 15px 0px;
+}
+.icon-div{
+    display: flex;
+    justify-content: center;
+}
+.icon-div>i{
+    background-color: #29abe2;
+    width: 100px; 
+    height: 100px; 
+    border-radius: 100px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.icon-div>i{
+    font-size: 50px;
+    color: #fff;
+}
+.button-div{
+    z-index: 1000;
+    background-color: #29aae2b2;
+    width: 50px;
+    justify-content: center;
+    height: 50px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    right: 2%;
+    bottom: 30px;
+    cursor: pointer;
+}
+.button-div>i{
+    padding: 0px;
+    display: flex;
+    font-size: 30px;
+    color: #fff;
+
+}
+
+
+/* aboutus-cont */
+.aboutus-cont{
+    background-color: #f5f5f5;
+    padding: 90px 0px 90px 0px;
+    display: flex;
+    width: 100%;
+}
+.aboutus-head{
+    flex-basis: 60%;
+    overflow: hidden;
+    padding: 0px 0px 20px 0px;
+}
+.about-heading{
+    margin-left: 5%;
+    width: 90%;
+}
+.about-heading>h3{
+    font-weight: 700;
+    text-align: initial;
+}
+.about-heading>div:last-child{
+    width: 40px;
+    height: 2px;
+    position: relative;
+    background-color: #29abe2;
+}
+.about-content{
+    margin-left: 5%;
+    padding: 30px 0px 0px 0px;
+    width: 95%;
+    /* background-color: turquoise; */
+}
+.about-content>p:first-child{
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.550);
+}
+.about-content>p:not(:first-child){
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.450);
+}
+.about-content>div{
+    margin-top: 30px;
+}
+.about-content>div>a{
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 12px 30px 12px 30px;
+    box-shadow: 0px 2px #1a8dbe;
+    background-color: #29abe2;
+}
+.about-content>div>a:hover{
+    background-color: #19202E;
+}
+.about-content>div>a:active{
+    background-color:#007bff;
+    box-shadow: 0px 0px 2px 3px #8dc2fa;
+}
+.aboutus-home-div1>.about-heading{
+    margin-left: 10.5%;
+    width: 89.5%;
+}
+.aboutus-home-div1>.about-content{
+    margin-left: 10.5%;
+    width: 89.5%;
+}
+
+.carousellap-div{
+    background-color: #000;
+    padding: 5px;
+    width: 80%;
+    height:300px;
+    border-radius: 5px;
+}
+.caurosellap-cont{
+    flex-basis: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Techn-div */
+.tech-cont{
+    width: 88%;
+    display: flex;
+    margin-left: 6%;
+    justify-content: space-between; 
+}
+.techn-div{
+    width: 20%;
+}
+.techn-div>div:first-child{
+    overflow: hidden;
+}
+.techn-div>div:first-child:hover>img{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+.techn-div>div>img{
+    width: 100%;
+}
+.techn-div>div:last-child{
+    background-color: #f5f5f5;
+} 
+.techn-div>div:last-child>p{
+    font-weight: bold;
+    padding:15px 0px 15px 0px;
+}
+/* carrer-cont */
+.carrer-cont{
+    background-color: #1a8dbe;
+    display: flex;
+    padding: 25px 0px 25px 0px;
+    align-items: center;
+    overflow: hidden;
+}
+.carrer-div1{
+    flex-basis: 65%;
+}
+.carrer-div1>p:first-child{
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 10%;
+}
+.carrer-div1>p:last-child{
+    color: #fff;
+    margin-left: 10%;
+    position: relative;
+    bottom: 10px;
+}
+.carrer-div2{
+    flex-basis: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.carrer-div2>a{
+    color: #fff;
+    text-decoration: none;
+    background-color: #19202E;
+    padding: 12px 35px 12px 35px;
+    border-radius: 5px;
+    
+}
+.carrer-div2>a:hover{
+    background-color:#29abe2 ;
+}
+.carrer-div2>a:active{
+    background-color:#6c757d ;
+    box-shadow: 0px 0px 2px 3px #6c757dbe;
+}
+
+.client-head>p{
+ color:#29abe2 ;
+}
+
+@media(max-width:993px){
+
+    .carousellap-div{
+        width:50%;
+    }
+
+    .serv-div{
+        width: 100%;  
+        display: grid;
+        margin-left: 0%;
+        justify-items: center;
+    }
+    .serv-div>div{
+          width: 65%;
+      }
+
+    .aboutus-cont{
+        display: grid;
+    }
+    .aboutus-head{
+        padding-bottom: 20px;
+    }
+    .caurosellap-cont{
+        padding: 30px 0px 30px 0px;
+    }
+
+    .tech-cont{
+        display: grid;
+        justify-content: space-around; 
+    }
+
+    .techn-div{
+        width: 60%;
+        margin-left: 20%;
+    }
+
+}
+@media(max-width:778px){
+    .about-content{
+        width: 90%;
+    }
+    .carousellap-div{
+        width:58%;
+    }
+    .carrer-cont{
+        display: grid;
+        align-items: center;
+    }
+    .aboutus-cont{
+        overflow: hidden;
+    }
+    .aboutus-head{
+        overflow: hidden;
+        text-align: justify;
+    }
+
+    .carrer-div1{
+        text-align: center;
+    }
+
+    .aboutus-home-div1>.about-content{
+        width: 80%;
+    }
+}
+
+@media(max-width:765px){
+    .caurosellap-cont{
+        display: none;
+     }
+}
+
+@media(max-width:426px){
+    .aboutus-home-div1>.about-content{
+        width: 80%;
+    }
+    .caurosellap-cont{
+       display: none;
+    }
+    .carousellap-div{
+        width: 80%;
+    }
+}

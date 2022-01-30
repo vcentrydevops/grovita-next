@@ -1,0 +1,130 @@
+.foot-cont{
+    background-color: #19202e;
+    display: flex;
+    padding: 80px 0px 0px 0px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    overflow: hidden;
+}
+.footdiv-logo{
+    flex-basis: 20%;
+    overflow: hidden;
+}
+.footdiv-logo>img{
+width: 100%;
+}
+.footer-icon{
+    display: flex;
+    width: 100%;
+    padding: 20px 0px 20px 0px;
+    justify-content: space-around;
+}
+.footer-icon>a>i{
+    color: #29ABE2;
+}
+.footer-icon>a>i:hover{
+    color: #fff;
+}
+.footdiv-serv{
+    flex-basis: 20%;
+    color: white;
+}
+.fs-head{
+    padding-bottom: 30px;
+}
+.fs-head>p{
+    font-size: 20px;
+    font-weight: 400;
+}
+.fsh-hr{
+    background-color:#29ABE2 ;
+    width: 45px;
+    height: 1.5px;
+    position: relative;
+    bottom: 7px;
+}
+.fs-list{
+    text-align: start;
+}
+.fs-list>ul{
+    padding: 0px;
+}
+.fs-list>ul>li{
+    width: 100%;
+    list-style: none;
+    position: relative;
+    padding: 10px 0px 10px 0px;
+}
+.fs-list>ul>li>a{
+    font-size: 17px;
+    color: #999999;
+    text-decoration: none;
+}
+.fs-list>ul>li>a:hover{
+    color:#29ABE2 ;
+}
+.foot-adres{
+    display: flex;
+}
+.foot-adres>i{
+    color: #29ABE2;
+}
+.foot-adres>div{
+    margin-left: 4%;
+}
+.adres-div>p:first-child{
+    font-weight: bold;
+}
+.foot-adres>div>p{
+    color: #999999;
+    font-size: 17px;
+    margin-bottom: 0px;
+    /* background-color: violet; */
+}
+.foot-phone{
+    margin-top: 15px;
+}
+.copyright-div{
+    /* background-color:#222b3f; */
+    width: 100%;
+    color: #999999;
+    padding: 100px 0px 15px 0px;
+    text-align: center;
+}
+.copyright-div>p>a{
+    color:#999999 ;
+    text-decoration: none;
+}
+.copyright-div>p>a:hover{
+    color:#29ABE2;
+}
+@media (max-width:987px) {
+    .footdiv-logo{
+        flex-basis: 40%;
+    }
+    .footdiv-serv{
+        flex-basis: 40%;
+        padding-bottom: 30px;
+    }
+}
+
+@media (max-width:426px) {
+    .foot-cont{
+        display: grid;
+    }
+
+    .footdiv-logo{
+        width: 70%;
+        margin-left: 15%;
+        padding-bottom: 50px;
+    }
+    .footdiv-serv{
+        margin-left: 5%;
+        padding-bottom: 30px;
+    }
+    .copyright-div>p{
+        width: 70%;
+        margin-left: 15%;
+    }
+}
